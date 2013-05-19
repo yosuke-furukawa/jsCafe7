@@ -18,12 +18,6 @@
 
 </div>
 <div class="step" data-y="0" data-x="1200">
-<h2>Presentation is here!!</h2>
-
-<p><a href="http://goo.gl/46dk3">http://goo.gl/46dk3</a></p>
-
-</div>
-<div class="step" data-y="0" data-x="2400">
 <h2>Who are you ?</h2>
 
 <p>Yosuke!</p>
@@ -39,7 +33,7 @@
 <p>Community : <a href="http://nodejs.jp/"><img src="http://joyeur.files.wordpress.com/2011/11/node_logo-01.png" alt="node" /></a></p>
 
 </div>
-<div class="step" data-y="0" data-x="3600">
+<div class="step" data-y="0" data-x="2400">
 <h2>What is Bower ?</h2>
 
 <p><a href="http://bower.io/"><img src="bower-logo.png" style="width:20%; height:20%;" /></a></p>
@@ -50,14 +44,14 @@
 </ul>
 
 </div>
-<div data-rotate="90" data-scale="3" class="step" data-y="0" data-x="4800">
+<div data-rotate="90" data-scale="3" class="step" data-y="0" data-x="3600">
 <h2>Super Fast Bower Demo</h2>
 
 <!-- data-scale="3"  -->
 <!-- data-rotate="90" -->
 
 </div>
-<div class="step" data-y="800" data-x="0">
+<div class="step" data-y="0" data-x="4800">
 <h2>Install</h2>
 
 <pre><code>$ npm install -g bower
@@ -66,7 +60,7 @@
 <p>※ if you dont have npm, you would install node.js to be better.</p>
 
 </div>
-<div class="step" data-y="800" data-x="1200">
+<div class="step" data-y="800" data-x="0">
 <h2>Install</h2>
 
 <pre><code>$ bower init // create bower.json
@@ -82,14 +76,14 @@ $ bower install backbone --save // write bower.json
 <p>you dont need to type <strong>"wget"</strong> any more!!</p>
 
 </div>
-<div class="step" data-y="800" data-x="2400">
+<div class="step" data-y="800" data-x="1200">
 <h2>Update</h2>
 
 <pre><code>$ bower update // update libraries
 </code></pre>
 
 </div>
-<div class="step" data-y="800" data-x="3600">
+<div class="step" data-y="800" data-x="2400">
 <h2>search modules</h2>
 
 <pre><code>$ bower search backbone
@@ -101,14 +95,14 @@ $ bower install backbone --save // write bower.json
 </code></pre>
 
 </div>
-<div class="step" data-y="800" data-x="4800">
+<div class="step" data-y="800" data-x="3600">
 <h2>get more infomation</h2>
 
 <pre><code>$ bower info backbone
 </code></pre>
 
 </div>
-<div class="step" data-y="1600" data-x="0">
+<div class="step" data-y="800" data-x="4800">
 <h2>If you have cool client modules</h2>
 
 <pre><code>$ bower register &lt;module name&gt; &lt;git repository&gt;
@@ -117,11 +111,11 @@ $ bower install backbone --save // write bower.json
 <p>※ use <strong>git tag</strong> and put versions like <strong>0.0.1</strong>, <strong>0.0.2</strong>.</p>
 
 </div>
-<div class="step" data-y="1600" data-x="1200">
+<div class="step" data-y="1600" data-x="0">
 <h2>HOWEVER, Bower has some <strong>uncool</strong> points...</h2>
 
 </div>
-<div class="step" data-y="1600" data-x="2400">
+<div class="step" data-y="1600" data-x="1200">
 <h2>html script and link</h2>
 
 <pre><code>&lt;script src="/components/jquery/jquery.js" /&gt;
@@ -131,21 +125,25 @@ $ bower install backbone --save // write bower.json
 <p>bower does not have layout manager...</p>
 
 </div>
-<div class="step" data-y="1600" data-x="3600">
+<div class="step" data-y="1600" data-x="2400">
 <h2>Use <strong>grunt-bower-task</strong></h2>
 
 <p><a href="https://github.com/yatskevich/grunt-bower-task">grunt-bower-task</a> can align our js/css to be better.</p>
 
 <pre><code>lib
 |-- js
-|   |- jquery.js
-|   \- impress.js
+|   |- jquery
+|   |  |- jquery.js
+|   |
+|   \- impress
+|      |- impress.js
 |-- css
-    \- bootstrap.css
+    \- impress
+       |- impress.css
 </code></pre>
 
 </div>
-<div class="step" data-y="1600" data-x="4800">
+<div class="step" data-y="1600" data-x="3600">
 <h2>YEAH !!</h2>
 
 <pre><code>&lt;link href="css/bootstrap.css" /&gt;
@@ -156,8 +154,52 @@ $ bower install backbone --save // write bower.json
 <h3>So simple. </h3>
 
 </div>
-<div class="step" data-y="2400" data-x="0">
+<div class="step" data-y="1600" data-x="4800">
 <h2>Yeoman</h2>
+
+<ul>
+<li><p>task runner => 
+<a href="http://gruntjs.com/"><img src="http://gruntjs.com/img/grunt-logo.svg" style="width:20%; height:20%;"/></a></p></li>
+<li><p>frontend package manager => 
+<a href="http://bower.io/"><img src="bower-logo.png" style="width:20%; height:20%;" /></a></p></li>
+<li><p>backend package manager => 
+<img src="https://npmjs.org/static/npm.png" style="width:20%; height:20%;" /></p></li>
+</ul>
+
+</div>
+<div class="step" data-y="2400" data-x="0">
+<h2>So you want to create your own templates??</h2>
+
+<p><img src="http://yeoman.io/assets/img/yeoman-logo.png" alt="yeoman" /></p>
+
+<p>yeoman can generate application templates.</p>
+
+</div>
+<div class="step" data-y="2400" data-x="1200">
+<h2>DEMO</h2>
+
+</div>
+<div class="step" data-y="2400" data-x="2400">
+<h2>Summary</h2>
+
+<ul>
+<li><strong>Bower</strong> is useful tool.</li>
+<li>but Bower is not so cool, <strong>grunt-bower-task</strong> is really helpful.</li>
+<li><strong>Yeoman</strong> can generate your application templates.</li>
+<li>I am creating our own templates for <strong>jsCafe</strong>!!</li>
+</ul>
+
+</div>
+<div class="step" data-y="2400" data-x="3600">
+<h2>DeNA NEEDS YOU!!!</h2>
+
+<ul>
+<li><em>JavaScript Engineers</em></li>
+<li><em>Noders</em></li>
+<li><em>Designers</em></li>
+<li><a href="http://dena.com/recruit/">Join us!!!!</a>
+<img src="https://www.e2r.jp/export/ja/dena2014/images/dena_logo.png" alt="dena" /></li>
+</ul>
 
 </div>
 

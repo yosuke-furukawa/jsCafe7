@@ -1,10 +1,6 @@
 Bower/Yeoman
 ===============
 
-Presentation is here!!
-----------
-[http://goo.gl/46dk3](http://goo.gl/46dk3)
-
 Who are you ?
 ----------
 
@@ -104,10 +100,14 @@ Use **grunt-bower-task**
 
     lib
     |-- js
-    |   |- jquery.js
-    |   \- impress.js
+    |   |- jquery
+    |   |  |- jquery.js
+    |   |
+    |   \- impress
+    |      |- impress.js
     |-- css
-        \- bootstrap.css
+        \- impress
+           |- impress.css
 
 YEAH !!
 ----------------
@@ -121,4 +121,40 @@ YEAH !!
 Yeoman
 ---------------
 
+- task runner => 
+<a href="http://gruntjs.com/"><img src="http://gruntjs.com/img/grunt-logo.svg" style="width:20%; height:20%;"/></a>
+
+- frontend package manager => 
+<a href="http://bower.io/"><img src="bower-logo.png" style="width:20%; height:20%;" /></a>
+
+- backend package manager => 
+<img src="https://npmjs.org/static/npm.png" style="width:20%; height:20%;" />
+
+
+So you want to create your own templates??
+--------------
+
+![yeoman](http://yeoman.io/assets/img/yeoman-logo.png)
+
+yeoman can generate application templates.
+
+DEMO
+-------------
+
+
+Summary
+-----------
+
++ **Bower** is useful tool.
++ but Bower is not so cool, **grunt-bower-task** is really helpful.
++ **Yeoman** can generate your application templates.
++ I am creating our own templates for **jsCafe**!!
+
+DeNA NEEDS YOU!!!
+-------
++ *JavaScript Engineers*
++ *Noders*
++ *Designers*
++ [Join us!!!!](http://dena.com/recruit/)
+![dena](https://www.e2r.jp/export/ja/dena2014/images/dena_logo.png)
 
