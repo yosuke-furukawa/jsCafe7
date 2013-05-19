@@ -141,6 +141,7 @@ yeoman can generate application templates.
 DEMO
 -------------
 
+<a href="http://www.yosuke-furukawa.info:5000/">demo site</a>
 
 Summary
 -----------
